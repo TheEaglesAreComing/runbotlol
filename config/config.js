@@ -11,7 +11,7 @@ exports.info = {
 // it can be left blank
 exports.bot = {
     name: "RunBot",
-    pass: "",
+    pass: "memesarememeful",
 };
 
 // this is the command character used in PMs and public rooms that do not specify what command character they want
