@@ -10,12 +10,12 @@ exports.info = {
 // information regarding the bot's login information
 // it can be left blank
 exports.bot = {
-    name: "Bot's username",
+    name: "RunBot",
     pass: "",
 };
 
 // this is the command character used in PMs and public rooms that do not specify what command character they want
-exports.defaultCharacter = ["+"];
+exports.defaultCharacter = ["."];
 
 // minimum rank for using a command unless specified.
 exports.defaultRank = "@";
@@ -50,7 +50,7 @@ exports.ranks = {
 // commands settable using +set
 exports.settableCommands = {
     "say": true,
-    "lenny": true,
+    "lenny": false,
     "games": true,
     "addcom": true,
     "settings": true,
